@@ -1,0 +1,166 @@
+/*the rest selector*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0px	;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #931420;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-image: linear-gradient(#f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+}
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+}
+header h3{
+	font-size: 130%;
+	font-style: italic;
+}
+.shadow {
+	text-shadow: #800000;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
+main h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 0;
+	border-right: 0;
+	border-color: #800000;
+	border-style: solid;
+}
+
+article img {
+	float: right;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	border-color: black;
+	border-top: 2px;
+	border-right: 2px;
+	border-left: 2px;
+	border-bottom: 2px;
+	border-style: solid;
+}
+
+article h2 {
+	padding-top: 0;
+}
+
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+	color: black;
+}
+
+article p {
+	color: black;
+}
+
+main section h2{
+	color: #800000;
+	font-size: 130%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+main aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+	padding-top: .25em;
+}
+
+main aside h2 {
+	font-size: 105%;
+	padding-bottom: .25em;
+	padding-top: .25em;
+	color: #800000;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+p {
+	padding-bottom: .5em;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+
+ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+li {
+	padding-bottom: .35em;
+}
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	color: white;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+a:hover {font-style: italic;}
