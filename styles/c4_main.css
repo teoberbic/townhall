@@ -219,7 +219,17 @@ footer p {
 	#mobile_menu {
 		display: block;
 	}
-}
+
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+	}
 
 
 
